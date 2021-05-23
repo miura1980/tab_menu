@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body, ul {
+  margin: 0;
+  padding: 0;
+} 
+
+body {
+  border-top: 5px solid rgb(0, 0, 0);
+  background: rgb(245, 245, 245);
+}
+
+.ly_content {
+  max-width: 800px;
+  margin: 30px auto 0;
+  padding: 0 10px;
+}
+
+.ly_content p {
+  /* background: rgb(220, 220, 220); */
+  margin: 0 0 5px;
+  padding: 5px;
+  line-height: 1.7;
+}
+
+.ly_tabtitle {
+  list-style: none;
+  display: flex;
+}
+
+.ly_tabtitle li {
+  padding: 3px 10px;
+  cursor: pointer;
+}
+
+.ly_tabtitle li:hover {
+  background: rgb(220, 220, 220);
+}
+
+.none {
+  display: none;
+}
